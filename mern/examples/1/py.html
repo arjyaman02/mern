@@ -1,0 +1,107 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@arjyaman02 
+swarooppany
+/
+MERN-Group4-Assignments
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+MERN-Group4-Assignments/Assignment 4/q2(form).html
+@swarooppany
+swarooppany Add files via upload
+Latest commit f606aa2 6 hours ago
+ History
+ 1 contributor
+65 lines (63 sloc)  2.81 KB
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/q1.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class="error_message" style="display:none;text-align:center ;padding-left:5%"></div>
+    <div class="form_container">
+        <form>
+            <div class="form_element">
+                <label>Name :</label>
+                <input type="text" name="name" id="name" placeholder="Enter Full Name Here" value=""/>
+            </div>
+            <div class="form_element">
+                <label>E-mail :</label>
+                <input type="email" name="email" id="email" placeholder="abc123@xyz.cc" value=""/>
+            </div>
+            <div class="form_element">
+                <label>Phone :</label>
+                <input type="text" name="phone" id="phone" placeholder="XXXXXXXXXX" value="" pattern = "[0-9]{10}"/>
+            </div>
+            <div class = "form_element">
+                <label>Gender-</label><br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+            </div>
+            <div class="form_element">
+                <label>Address-</label><br>
+                <textarea rows="10" cols="100" placeholder="Enter Full Address Here" id="addr" name="addr"></textarea><br>
+                <label>Pin Code:</label>
+                <input type="text" name="pin" id="pin" />
+            </div>
+            <div class="form_element">
+                <label>Password :</label><br>
+                <input type="password" id="pass" name="pass" value=""/><br>
+                <label>Confirm Password :</label><br>
+                <input type="password" id="c_pass" name="c_pass" value=""/><br>
+            </div>
+            <div class="form_element">
+                <input type="checkbox" id = "i_agree" name="i_agree" value="1"/> I agree with all terms and conditions.
+            </div>
+            <div class="form_element">
+                <input type="submit" name="submit" value="Submit"/>
+            </div>
+        </form>
+        <script src="./q2.js"></script>
+    </div>
+    <div class="form_container" style="border-radius: 0; margin-top: 3%;">
+        <div id="show_name"></div>
+        <div id="show_email"></div>
+        <div id="show_phoneno"></div>
+        <div id="show_gender"></div>
+        <div id="show_street"></div>
+        <div id="show_address"></div>
+        
+    </div>
+    
+</body>
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

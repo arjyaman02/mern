@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration</title>
+</head>
+<body style="padding-left: 20%;padding-right:20% ; background-color:rgb(240, 214, 251);font-family: 'Quicksand', sans-serif;">
+    <div >
+        <form>
+            <fieldset style="border-width:5px; border-color: rgb(206, 150, 231); background-color:rgb(231, 195, 247)">
+                <legend style="font-size:30px ;  text-align:center"><b>REGISTRATION</b></legend>
+                <div class="form_container">
+                    <div class="error_message" style="display:none;text-align:center ;padding-left:5%"></div>
+                    <h2 style="text-align: center;">BASIC INFORMATION</h2>
+                    <div >
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" value=""/>
+                    </div><br>
+                    <div class="form_ele" style="float:left;width:50%">
+                        <label for="Email_Address">Email Address:</label><br>
+                        <input type="email" name="email" id="email" value="" />
+                    </div>
+                    <div class="form_ele" style="float:right;width:50%">
+                        <label for="Phone_no">Phone Number:</label><br>
+                        <input type="tel" name="number" id="phone" maxlength="10" />
+                    </div>
+                    <div class="form_ele">
+                        <label for="gender" >Gender:</label>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="Others">Others
+                    </div>
+                </div>
+                <div class="form_container">
+                    <h2 style="text-align: center;">ADDRESS</h2>
+                    <div class="form_ele" style="float:left;width:50%">
+                        <label for="addr">Plot no/Flat no:</label><br>
+                        <input type="tel" name="plotno" id="plotno" value=""/>
+                    </div>
+                    <div class="form_ele" style="float:right;width:50%">
+                        <label for="Locality">Locality:</label><br>
+                        <input type="text" name="locality" id="locality" value=""/>
+                    </div>
+                    <div class="form_ele" style="float:left;width:50%">
+                        <label for="Street">Street:</label><br>
+                        <input type="text" name="street" id="street" value=""/>
+                    </div>
+                    <div class="form_ele" style="float:right;width:50%">
+                        <label for="City">City:</label><br>
+                        <input type="text" name="City" id="City" value=""/>
+                    </div>
+                    <div class="form_ele" style="float:left;width:50%">
+                        <label for="State">State:</label><br>
+                        <input type="text" name="State" id="State" value=""/>
+                    </div>
+                    <div class="form_ele" style="float:right;width:50%">
+                        <label for="Pincode">Pincode:</label><br>
+                        <input type="tel" name="pincode" id="pincode" value=""/>
+                    </div>
+                </div>
+                <div class="form_container">
+                    <h2 style="text-align: center;">PASSWORD</h2>
+                    <p>The password should be of 8 characters.Preferably a password with uppercase, lowercase, characters(! @ # $ % ^ & *) and numbers.</p>
+                    <div class="form_ele" style="float:left;width:50%">
+                        <label for="pwd">Password:</label><br>
+                        <input type="password" id="pwd" name="pwd" minlength="8">
+                    </div>
+                    <div class="form_ele" style="float:right;width:50%">
+                        <label for="pwd">Confirm Password:</label><br>
+                        <input type="password" id="conpwd" name="conpwd" minlength="8">
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_ele">
+                        <input type="checkbox" name="i_agree" id="i_agree" value="1"/>I agree with all terms and conditions.
+                    </div>
+                    <div class="form_ele" style="text-align:center;">
+                        <input type="submit" name="submit" value="Submit"/>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="form-container">
+        <div><span id="show_name"></span></div>
+        <div><span id="show_email"></span></div>
+        <div><span id="show_phoneno"></span></div>
+        <div><span id="show_gender"></span></div>
+        <div><span id="show_street"></span></div>
+        <div><span id="show_address"></span></div>
+        
+    </div>
+    <script type="text/javascript" src="valid.js"></script>
+</body>
+</html>
