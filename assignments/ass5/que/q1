@@ -1,0 +1,50 @@
+// Create Javascript Object Employee with properties name, email,phone,basic salary and 
+// methods to calculate total salary of the employee with 15%HRA, 20%SpecialAllowance 
+// added to the basic salary and deduct tax based on the basic salary with the following 
+// condition
+// a. If basic salary > 40000 deduct 10%
+// b. If basic salary > 50000 deduct 15%
+// c. If basic salaray > 70000 deduct 20%
+// d. And more than that flat 30%
+
+
+
+
+function Employee_Details(name,email,phone,basic_salary){
+    let ts;
+    return{
+        Name:name,
+        Email:email,
+        Phone:phone,
+        B_S:basic_salary,
+        HRA:0.15,
+        SP_AL:0.2,
+        Total_salary:function(){
+            if(this.B_S<40000){
+                return "Not a valid basic salary";
+            }
+            if(this.B_S > 40000 && this.B_S<50000){
+                ts = this.B_S + (this.HRA+this.SP_AL)*this.B_S;
+                return (ts-0.1*ts);
+            }
+            else if(this.B_S > 50000 && this.B_S<70000){
+                ts = this.B_S + (this.HRA+this.SP_AL)*this.B_S;
+                return (ts-0.15*ts);
+            }
+            else if(this.B_S > 70000){
+                ts = this.B_S + (this.HRA+this.SP_AL)*this.B_S;
+                return (ts-0.2*ts);
+            }
+            else{
+                ts = this.B_S + (this.HRA+this.SP_AL)*this.B_S;
+                return (ts-0.3*ts);
+            }
+        }
+    }
+}
+
+const employee = Employee_Details("john","john@gmail.com","9437856128",65000);
+console.log("Name : ",employee.Name);
+console.log("Email : ",employee.Email);
+console.log("Phone : ",employee.Phone);
+console.log("Total_salary : ",employee.Total_salary());
