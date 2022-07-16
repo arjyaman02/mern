@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "product_id": 10,
+        "product_name": "Dell vastro",
+        "quantity": 1,
+        "price": 200000,
+        "total_amount":200000
+    },
+    {
+        "id": 2,
+        "product_id": 11,
+        "product_name": "Hp pavilion",
+        "quantity": 1,
+        "price": 80000,
+        "total_amount":80000
+    },
+    {
+        "id": 3,
+        "product_id": 12,
+        "product_name": "iPad Air",
+        "quantity": 1,
+        "price": 50000,
+        "total_amount":50000
+    },
+    {
+        "id": 4,
+        "product_id": 13,
+        "product_name": "samsung ",
+        "quantity": 1,
+        "price": 13000,
+        "total_amount":13000
+        
+    },
+    {
+        "id": 5,
+        "product_id": 14,
+        "product_name": "mi 10",
+        "quantity": 1,
+        "price": 16000,
+        "total_amount":16000
+
+    },
+    {
+        "id": 6,
+        "product_id": 15,
+        "product_name": "acer",
+        "quantity": 1,
+        "price": 50000,
+        "total_amount":50000
+
+    }
+]
+
