@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "product_id": 101,
+        "product_name": "Macbook Air",
+        "quantity": 1,
+        "price": 100000,
+        "total_amount":100000
+    },
+    {
+        "id": 2,
+        "product_id": 102,
+        "product_name": "iPhone 13",
+        "quantity": 2,
+        "price": 80000,
+        "total_amount":80000
+    },
+    {
+        "id": 3,
+        "product_id": 103,
+        "product_name": "iPad Air",
+        "quantity": 1,
+        "price": 50000,
+        "total_amount":50000
+    },
+    {
+        "id": 4,
+        "product_id": 104,
+        "product_name": "mi note 9 pro",
+        "quantity": 1,
+        "price": 13000,
+        "total_amount":13000
+        
+    },
+    {
+        "id": 5,
+        "product_id": 105,
+        "product_name": "mi note 10 pro",
+        "quantity": 1,
+        "price": 16000,
+        "total_amount":16000
+
+    },
+    {
+        "id": 6,
+        "product_id": 106,
+        "product_name": "Hp pavilion",
+        "quantity": 1,
+        "price": 50000,
+        "total_amount":50000
+
+    }
+]
+
