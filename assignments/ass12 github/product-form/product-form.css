@@ -1,0 +1,35 @@
+.form-container{
+    width: 25%;
+    /* background-color: #ccc; */
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin:2% 0 0 2%;
+    padding:1%;
+    border-radius:10px;
+}
+
+.form-input{
+    width: 100%;
+    float:left;
+}
+
+input[type="text"]{
+    width:80%;
+    height:30px;
+    margin: 0 0 2% 2%;
+    float : left;
+    border-color:rgb(160, 74, 186);
+    border-radius: 5px;
+}
+.clearfix{
+    clear: both;
+}
+.buy_now{
+    background: rgb(160, 74, 186);
+    border :2px solid rgb(160, 74, 186);
+    margin-top: 20px;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
